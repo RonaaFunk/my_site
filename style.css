@@ -2,13 +2,13 @@
 	background-color: #000000;
 	border-width: 2pt;
 	border-style: solid;
+	padding: 5px;
 	
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
-	
-	
+	width: 99%;
+		
 	color: #808080;
 	font-size: 20pt
 }
@@ -17,21 +17,18 @@
 	background-color: #000000;
 	border-width: 2pt;
 	border-style: solid;
+	padding: 5px;
 	
 	position: fixed;
 	left: 0%;
 	bottom: 0%;
-	width: 100%;
+	width: 99%;
 	
 	color: #808080;
 	font-size: 18pt;
 	text-align: center;
 }
 
-.center-text {
-	font-size: 10pt;
-	text-align: centre;
-}
 
 #body {
 	width: 100%;
@@ -41,5 +38,42 @@
 	overflow: hidden;
 }
 
+#slideshow {
+	border: 1px;
+	border-style: dotted;
+	border-color: white;
+	
+	width: 700px;
+	height: 700px;
+	
+	float: left;
+}
 
-#e6ecff
+
+.text-box {
+	border: 1px;
+	border-style: solid;
+	border-color: white;
+	padding: 20px;
+	
+	background-color: black;
+	
+	width: 75%;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%); 
+	
+}
+
+.slideshow-text {
+	padding: 20px;
+	
+	max-width: 48%;
+	
+	font-size: 15pt;
+	color: white;
+	
+	float: right;
+}
