@@ -4,6 +4,20 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<title>Aaron Hawke's Portfolio</title>
+		
+		<script type="text/javascript">
+			
+			var counter = 1;
+			setInterval(function(_){
+				document.getElementById('radio' + counter ).checked = true;
+				counter++;
+				if(counter>4){
+				counter = 1;
+				}
+			}, 5000);
+			
+		</script>
+		
 	</head>
 	
 	<body id="body">
@@ -21,8 +35,48 @@
 	
 		<div class="text-box">
 			
+			<!--Slideshow-->
+			
 			<div id="slideshow">
+				<div class="slider">
+					<div class="slides">
+					
+						<input type="radio" name="radio-btn" id="radio1">
+						<input type="radio" name="radio-btn" id="radio2">
+						<input type="radio" name="radio-btn" id="radio3">
+						<input type="radio" name="radio-btn" id="radio4">
+						
+						<div class="slide first">
+							<img src="images/slide 1.png" alt="">
+						</div>
+						
+						<div class="slide">
+							<img src="images/slide 2.png" alt="">
+						</div>
+						
+						<div class="slide">
+							<img src="images/slide 3.png" alt="">
+						</div>
+						
+						
+						
+						<div class="auto-change">
+							<div class="auto1"></div>
+							<div class="auto2"></div>
+							<div class="auto3"></div>
+						</div>
+						
+					</div>
+					 
+					<div class="manual-change">
+						<label for="radio1" class="manual"></label>
+						<label for="radio2" class="manual"></label>
+						<label for="radio3" class="manual"></label>
+					</div>
+				</div>
 			</div>
+			
+			<!--End of Slideshow-->
 			
 			<div class="slideshow-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar fringilla magna vel eleifend. Curabitur varius nisl at vulputate tristique. Mauris ultricies lacinia vestibulum. Aliquam erat volutpat. Proin euismod diam at quam porttitor, sit amet pretium ligula aliquet. Sed porttitor sapien odio, in finibus mauris mollis ut. Pellentesque id sapien et purus accumsan lobortis vitae id nulla. In gravida dolor vitae egestas molestie. Aliquam nec ultricies lectus. Etiam leo neque, condimentum non semper id, condimentum sit amet arcu. Vivamus vulputate sodales fringilla.</p>
