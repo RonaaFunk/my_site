@@ -56,7 +56,7 @@
 }
 
 
-.slideshow-text {
+.right-text {
 	padding: 20px;
 	
 	max-width: 48%;
@@ -181,4 +181,12 @@
 
 #radio3:checked ~ .auto-change .auto3 {
 	background: white;
+}
+
+/*Social Media Icons*/
+
+.icon {
+	
+	width: 180px;
+	height: 180px;
 }
