@@ -1,3 +1,5 @@
+/*CSS Page*/
+
 #header {
 	background-color: #000000;
 	border-width: 2pt;
@@ -9,7 +11,7 @@
 	left: 0;
 	width: 99%;
 		
-	color: #808080;
+	color: white;
 	font-size: 20pt
 }
 
@@ -24,7 +26,7 @@
 	bottom: 0%;
 	width: 99%;
 	
-	color: #808080;
+	color: white;
 	font-size: 18pt;
 	text-align: center;
 }
@@ -43,6 +45,9 @@
 	border-style: solid;
 	border-color: white;
 	padding: 20px;
+	
+	font-size: 15pt;
+	color: white;
 	
 	background-color: black;
 	

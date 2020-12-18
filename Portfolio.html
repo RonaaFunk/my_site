@@ -1,9 +1,13 @@
-<!--Main HTML Index Page-->
+<!--Portfolio Page-->
 
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<title>Aaron Hawke's Portfolio</title>
+			
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+	
 	</head>
 	
 	<body id="body">
@@ -15,16 +19,16 @@
 		Big Boi Bortfolio
 		</div>
 		<div style="float: right; text-indent: -5%">
-		<a href="Index.html"> Home </a>¦ <a href="Blog.html"> Blog </a>¦ <a href="Portfolio.html"> Portfolio </a>¦ <a href="Contact.html"> Contact </a>
+<a href="Index.html" style="color: white"> Home </a>¦ <a href="Blog.html" style="color: white"> Blog </a>¦ <a href="Portfolio.html" style="color: white"> Portfolio </a>¦ <a href="Contact.html" style="color: white"> Contact </a>
 		</div>
 	</header>
 	
 	<!--End Of Header-->
 	
-		<div class="center-text">
-			<p>This Is My Shit</p>
-		</div>
-	
+	<div class="text-box" style="height: 70%; transfrom: translate(-100px, 0); color: white;">
+		<model-viewer camera-controls src="3D_models/models/DamagedHelmet/glTF-Embedded/DamagedHelmet.gltf"></model-viewer>
+	</div>
+
 	<!--Footer-->
 	
 	<div id="footer">
@@ -39,3 +43,6 @@
 	
 	
 </html>
+
+
+	

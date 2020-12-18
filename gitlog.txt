@@ -1,0 +1,53 @@
+commit 1624d27a196764f4b74558b5f53394f94afc1dae
+Author: Your Name <you@example.com>
+Date:   Thu Dec 17 16:13:46 2020 +0000
+
+    added contact info and social media icons :)
+
+commit a7059c8db969eedab2d96837c232fde9adb469ea
+Author: Your Name <you@example.com>
+Date:   Wed Dec 16 20:09:01 2020 +0000
+
+    added images, CSS and index page JS slideshow
+
+commit fe64e95da8f0a2f2b3106cf0e4d0487372b07cfc
+Author: Your Name <you@example.com>
+Date:   Mon Dec 14 14:56:18 2020 +0000
+
+    added css boxes and created the index page layouts, will be adding the slideshow next
+
+commit 6ab18d344d832b02513a93f203abb99bda4a1646
+Author: Your Name <you@example.com>
+Date:   Sat Dec 12 15:55:14 2020 +0000
+
+    Played with H&F, added a background image and made small tweaks
+
+commit d1309e251f263c39d5c9f76a10bebea9176257e1
+Author: Your Name <you@example.com>
+Date:   Wed Dec 9 12:55:12 2020 +0000
+
+    New Page Names & Linked
+
+commit f6c9d934cb924243c5caab84514dbdc1063fc6f3
+Author: Your Name <you@example.com>
+Date:   Wed Dec 9 11:37:49 2020 +0000
+
+    duplicated pages
+
+commit dcca76a479a3f2e7624f606b593fa7a00a46dd7c
+Author: Your Name <you@example.com>
+Date:   Sun Nov 22 19:21:24 2020 +0000
+
+    Added Footer and CSS page with multiple styles
+
+commit 19a704af360fbdb3fbf24782f53c91940f720075
+Author: Your Name <you@example.com>
+Date:   Mon Nov 16 14:32:23 2020 +0000
+
+    Header added
+
+commit 4453f25df0bf7955d9843025cefd9e6f0a8c4d69
+Author: RonaaFunk <62196757+RonaaFunk@users.noreply.github.com>
+Date:   Mon Nov 9 15:56:25 2020 +0000
+
+    Initial commit
